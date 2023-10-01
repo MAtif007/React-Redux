@@ -10,7 +10,7 @@ const Gallery = ({ gallarey, id }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
+    // speed: 1000,
     autoplaySpeed: 1500,
   };
 

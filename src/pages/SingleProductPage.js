@@ -13,6 +13,7 @@ const SingleProductPage = () => {
 
   useEffect(() => {
     dispatch(fetchSingleProduct(id));
+    // eslint-disable-next-line
   }, [id]);
 
   return (
